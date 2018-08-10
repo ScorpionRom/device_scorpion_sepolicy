@@ -4,8 +4,8 @@
 #
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/lineage/sepolicy/qcom/private
+    device/scorpion/sepolicy/qcom/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/qcom/common \
-    device/lineage/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/scorpion/sepolicy/qcom/common \
+    device/scorpion/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
